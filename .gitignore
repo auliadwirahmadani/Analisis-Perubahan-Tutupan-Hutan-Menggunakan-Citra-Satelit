@@ -1,0 +1,27 @@
+# Database
+database/*.sqlite
+database/*.sqlite-wal
+database/*.sqlite-shm
+!database/.gitkeep
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment & OS
+.env
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
